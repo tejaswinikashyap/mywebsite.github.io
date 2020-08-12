@@ -1,0 +1,43 @@
+p {
+	text-align: left;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: scroll;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+
+}
+
+a{
+	display: block;
+	padding: 10px;
+	background-color: #FAEBD7;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: left;
+	padding: 14px 18px;
+
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #222;
+}
